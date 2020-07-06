@@ -1,0 +1,215 @@
+
+
+body {
+	width: 900px;
+	margin: auto;
+	height: auto;
+	font-family:   "標楷體","新細明體","細明體";
+	font-size: 16px;
+	color: #000;
+	line-height: 26px;
+background: #afb589; /* Old browsers */
+background: -moz-linear-gradient(top, #afb589 0%, #c0dbba 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#afb589), color-stop(100%,#c0dbba)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #afb589 0%,#c0dbba 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #afb589 0%,#c0dbba 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #afb589 0%,#c0dbba 100%); /* IE10+ */
+background: linear-gradient(to bottom, #afb589 0%,#c0dbba 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afb589', endColorstr='#c0dbba',GradientType=0 ); /* IE6-9 */
+}
+
+img{
+border:0px;
+}
+
+p{
+    text-indent:16px;
+    margin:0px;
+ 
+    text-align:justify;text-justify:inter-ideograph;
+}
+
+h3{
+font-size: 24px;
+    font-weight: bold;
+    margin:15px 0px 5px 0px;
+    padding-left:5px;
+    color:#35211a;
+}
+#container{
+    background-color:#faf6ef;
+    box-shadow: 0px 0px 15px #646464;
+    width: 900px;
+}
+
+#header_A {
+	background-image: url(../images/head01.jpg);
+	background-repeat: no-repeat;
+	height: 295px;
+}
+
+#header_B {
+	background-image: url(../images/head02.jpg);
+	background-repeat: no-repeat;
+	height: 482px;
+	  text-indent:-9999999px;
+}
+
+#content_m01-1 {
+   margin-bottom:50px;
+    margin-top:30px;
+	}
+#content_m01-1 p{
+padding:21px 300px 0px 108px;
+}
+
+#content_m01-1 p+p{
+padding-top:10px;
+
+}
+
+#content_m02-1 {
+      margin-bottom:50px;
+}
+#menu03 {
+	padding-bottom:3px;
+	}
+#content_m03-1 {
+	 background-color:#f3ede1;
+    border:1px solid #af8f08;
+    width:690px;
+    margin:0 auto;
+      margin-bottom:50px;
+	height: 426px;
+}
+
+#content_m03-1:focus {
+   border:1px solid #af8f08;
+    outline:none;
+}
+
+
+#content_m04-1 {
+	margin-bottom:30px;
+	
+}
+#content_m04-1 a {text-decoration: none;
+    color: #35211A;
+}
+
+#footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	height: 131px;
+	
+}
+#cc {
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	padding-top: 25px;
+	text-align: center;
+	color: #000;
+	line-height: 20px;
+	font-weight: bold;
+   
+}
+#cc a{
+text-decoration: none;color: #000;
+}
+
+#logo {
+	position: absolute;
+     background-image:  url(../images/head00.png);
+       background-repeat: no-repeat;
+	width: 343px;
+	height: 76px;
+	z-index: 1;
+	margin-top: 12px;
+	margin-left: 50px;
+    text-indent:-99999px;
+}
+#book_buy {
+	position: absolute;
+	width: 220px;
+	height: 334px;
+	z-index: 2;
+	margin-left: 615px;
+    *margin-left:345px;
+	margin-top: 15px;
+}
+#top, #top2 {
+	position: absolute;
+	width: 34px;
+	height: 18px;
+	z-index: 3;
+	margin-left: 760px;
+	margin-top: -30px;
+   text-indent:-9999999px;
+   background-image:  url(../images/top.png);
+       background-repeat: no-repeat;
+}
+#top2 {
+		margin-left: 480px;
+    margin-top:20px;
+	
+}
+
+
+
+
+
+img#menu01, #menu02, #menu03, #menu04{
+padding-left:108px;
+}
+
+img#menu01{
+ float:left;   
+    
+}
+
+
+
+
+#content_m01-1 span{
+    color: #57090C;
+   
+}
+
+#content_m02-1 P{
+padding:5px 90px 5px 108px;
+    text-indent:0px;
+    
+}
+
+#content_m02-1 P:first-of-type{
+text-indent:16px;
+}
+
+#content_m03-1 p{
+padding:5px 2px 10px 10px;
+    color:#35211a;
+}
+
+#content_m03-1 span{
+display:block;
+    text-align:right;
+    margin-right:5px;
+}
+
+#content_m03-1 p+span{
+margin-right:133px;
+}
+
+#content_m03-1 p+span+span{
+margin-bottom:20px;
+}
+
+#cc img{
+vertical-align: middle;
+padding: 5px 7px;
+}
+
+#content_m04-1 p{
+	text-indent:0px;
+	 padding:5px 108px 5px 130px;
+}

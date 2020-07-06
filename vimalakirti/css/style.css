@@ -1,0 +1,256 @@
+body {
+	width: 930px;
+	margin: auto;
+	height: auto;
+	font-family: "細明體", "新細明體";
+	font-size: 16px;
+	color: #3E3A39;
+	line-height: 28px;
+background: #F2DDBD  ; /* Old browsers */
+background: -moz-linear-gradient(top,  #F2DDBD   0%, #F0DACC  100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F2DDBD  ), color-stop(100%,#F0DACC )); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #F2DDBD   0%,#F0DACC  100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #F2DDBD   0%,#F0DACC  100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #F2DDBD   0%,#F0DACC  100%); /* IE10+ */
+background: linear-gradient(to bottom,  #F2DDBD   0%,#F0DACC  100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F2DDBD  ', endColorstr='#F0DACC ',GradientType=0 ); /* IE6-9 */
+
+}
+    
+img{
+border:none;
+}
+
+#content{
+	width:930px;
+    background-color:#eeebe4;
+    box-shadow: 0 0 15px #867553;
+}
+
+#content p{
+    text-indent:32px;
+    padding:0px 105px;
+     text-align:justify;
+    text-justify:inter-ideograph;
+
+}
+
+#header_A {
+	background-image: url(../images/head01.jpg);
+	background-repeat: no-repeat;
+	height: 925px;
+
+}
+
+
+#header_B {
+	height:50px;
+	background-color:#3e3a39;
+}
+
+
+ul.menu {
+    float:right;
+    width:525px;
+    height:24px;
+   margin-right:30px;
+   margin-top:13px;
+}
+ul.social{
+    width:150px;
+    height:42px;
+    float:left;
+    background:url(../images/icon.jpg) no-repeat;
+    background-position:4px  -1px;
+    margin:17px 0px 0px 50px;
+    padding:0px;
+
+}
+
+ul.social li{
+ float:left;
+    list-style:none;
+}
+
+ul.social li  a{
+    display:block;
+    width:39px;
+    height:40px;
+    text-indent:-999999px;
+    margin:0px 5px;
+
+}
+
+
+
+
+#header_B  li{
+    float:left;
+    list-style:none;
+
+}
+
+.m1, .m2, .m3, .m4{
+    text-indent:-999999px;
+    background:url(../images/menu.jpg) no-repeat;
+    background-position:0px 0px;
+    display:block;
+    width:130px;
+}
+.m2{
+    background-position:-130px 0px; 
+   
+}
+.m3{
+    background-position:-260px 0px; 
+   
+}
+.m4{
+    background-position:-390px 0px; 
+    width:132px;
+}
+
+.m1:hover, .m2:hover, .m3:hover, .m4:hover{
+    text-indent:-999999px;
+    background:url(../images/menu-c.jpg) no-repeat;
+    background-position:0px 0px;
+    display:block;
+}
+.m2:hover{
+    background-position:-130px 0px; 
+}
+.m3:hover{
+    background-position:-260px 0px; 
+}
+.m4:hover{
+    background-position:-390px 0px; 
+}
+
+
+
+
+#content_A {
+     
+	background-image: url(../images/bg-introduction.jpg);
+	background-repeat: no-repeat;
+    background-position:center bottom;
+	min-height: 480px;
+    padding-bottom:30px;
+    *clear:both;
+}
+
+#content_A >img{
+    float:left;
+    margin:30px 22px 0px 37px;
+    clear:both;
+}
+
+#content_A p {
+    float:left;
+    padding:0;
+    text-indent:0px;
+    width:520px;
+    margin:40px 0px 0px 5px;
+}
+
+#content_B ,#content_C {
+	background-image: url(../images/bg-passage.jpg);
+	background-repeat: no-repeat;
+    background-position:right bottom;
+	padding-bottom:60px;
+
+}
+
+#content_B >img ,#content_C >img{
+    margin:20px 0px 0px 105px;
+}
+
+.title-preview{
+    background-image: url(../images/title-preview.jpg);
+	background-repeat: no-repeat;
+    width:149px;
+    height:49px;
+    margin:-25px auto 0 auto;
+}
+
+#content_D{
+    height:140px;
+}
+#content_D >img{
+	float:left;
+    margin:-15px 22px 0px 37px;
+    clear:both;
+}
+#content_D p {
+    text-indent:0px;
+    padding-top:30px;
+    padding-left:180px;
+    *padding-left:150px;
+}
+
+#footer {
+	background-color:#604c3f;
+	height: 120px;
+
+}
+#cc {
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: center;
+	color: #FFF;
+	line-height: 20px;
+}
+#cc >img{
+    vertical-align:middle;
+    margin:5px 0px;
+}
+
+
+#apDiv1 {
+	position: absolute;
+	width: 393px;
+	height: 57px;
+	z-index: 1;
+	margin-top: 3px;
+	margin-left: 30px;
+}
+#book_buy {
+	float: right;
+	width: 277px;
+	height: 360px;
+	margin-top:15px;
+}
+
+.abgne_gotoheader{
+	background: url("../images/top.png") no-repeat ;
+	text-indent: -99999px;
+	display: inline-block;
+	width: 62px;
+	float: right;
+    margin-right:34px;
+}
+
+#content_A+.abgne_gotoheader{
+    margin-top:-45px;
+  
+}
+#content_B >.abgne_gotoheader{
+    margin-top: 39px;
+}
+
+#content_C >.abgne_gotoheader{
+    margin-top: 40px;
+}
+
+#content_D >.abgne_gotoheader{
+    *margin-right: -60px;
+}
+
+#menu02{
+   
+    height:20px;
+    clear:both;
+  
+}
+

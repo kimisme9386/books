@@ -1,0 +1,241 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>貼紙專頁 空行母─性別、身分定位，以及藏傳佛教 </title>
+<link href="css/button.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.zclip.min.js"></script>
+<script type="text/javascript">
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-12620032-17']);
+              _gaq.push(['_trackPageview']);
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();		
+</script>
+<style>
+	  body{ background: #F5F4E0;}
+	  .minTbl{ 
+		border-top: 1px #336600 solid;
+		border-left: 1px #336600 solid;
+	  }
+	  .minTbl td{
+		border-bottom: 1px #336600 solid;
+		border-right: 1px #336600 solid;
+	  }
+	  
+	  div#link_list > a{
+		margin-bottom:10px
+	  }
+	  div#share_sytax li{
+		margin-top:15px;
+	  }
+</style>
+<script type="text/javascript">
+	$(function(){
+		
+		$("#link_list > a").click(function(){
+			var showid = $(this).attr("showid");
+			$("#link_list > a").each(function(){
+				if($(this).attr("showid") == showid)
+					$(this).removeClass("green").addClass("orange");
+				else
+					$(this).removeClass("orange").addClass("green");
+			});
+			$("#share_sytax > div").each(function(){
+				if($(this).attr("id") == showid){
+					$(this).fadeIn();
+				}else{
+					$(this).hide();
+				}
+			});
+		});
+		
+		$("a[act='copy']").zclip({
+			path: "js/ZeroClipboard.swf",
+			copy: function(){
+				return $(this).parent().next().val();
+			},
+			beforeCopy:function(){
+				$(this).parent().next().get(0).select();
+			}
+		});
+	
+		setTimeout(move_button,1000);
+	});	
+
+</script>
+</head>
+<body>
+
+
+<table class="minTbl"  style="background-color:#F5F4E0" width="100%" cellpadding="3" cellspacing="0">
+	<tr>
+		<td width="5%">編號</td>
+		<td width="18%">圖</td>
+		<td width="20%">語法</td>
+		<td>各站分享步驟</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td><a target="_blank" href="http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&utm_medium=Traveller&utm_campaign=1" title="空行母─性別、身分定位，以及藏傳佛教"><img src="http://farm9.staticflickr.com/8198/8206180152_765845ba68_o.gif" alt="空行母─性別、身分定位，以及藏傳佛教" style="border:0"/></a></td>
+		<td><div style="position:relative"><a class="button gray" act="copy" href="javascript:return false">複製語法</a></div><textarea cols="40" name="Html" readonly="readonly" rows="7">
+&lt;a target=&quot;_blank&quot; href=&quot;http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&amp;utm_medium=Traveller&amp;utm_campaign=1&quot; title=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8198/8206180152_765845ba68_o.gif&quot; alt=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot; style=&quot;border:0&quot;/&gt;&lt;/a&gt;
+</textarea>
+</td>
+<td rowspan="4" valign="top">
+	
+	<div id="link_list" style="margin:0px 10px 0px 10px">
+		<a href="javascript:return:false" class="button orange medium" showid="noname">無名小站</a>&nbsp;
+		<a href="javascript:return:false" class="button green medium" showid="pixnet">PIXNET</a>&nbsp;
+		<a href="javascript:return:false" class="button green medium" showid="yahoo">Yahoo</a>&nbsp;
+		<a href="javascript:return:false" class="button green medium" showid="yam">Yam天空</a>&nbsp;
+		<a href="javascript:return:false" class="button green medium" showid="xuite">Xuite日誌</a>&nbsp;
+		<a href="javascript:return:false" class="button green medium" showid="happy">樂多日誌</a>
+		<a href="javascript:return:false" class="button green medium" showid="udn">udn</a>
+		<a href="javascript:return:false" class="button green medium" showid="gblogger">Google Blogger</a>
+	</div>
+	<div id="share_sytax">
+		<div id="noname">
+			<ol>
+				<li>登入網誌管理畫面後面&#65292;點擊&#12300;資料夾管理&#12301;--&gt;&#12300;新增資料夾&#12301;&#12290;</li>
+				<ol>
+					<li>&#12300;刪除資料夾&#12301;設定為未勾選&#12290; </li>
+					<li>&#12300;資料夾&#12301;欄位填寫&#12300;空行母─性別、身分定位，以及藏傳佛教&#12301;&#12290; </li>
+					<li>在&#12300;排列順序&#12301;欄位填寫&#12300;0&#12301;&#12290; </li>
+					<li>在&#12300;寬度&#12301;欄位填寫&#12300;150&#12301;(請根據圖案寬度適當修改)&#12290; </li>
+					<li>在&#12300;高度&#12301;欄位填寫&#12300;150&#12301;(請根據圖案高度適當修改)&#12290; </li>
+					<li>&#12300;顯示捲軸&#12301;設定為&#12300;否&#12301;&#12290; </li>
+				</ol>
+				<li>點擊&#12300;確定&#12301;資料夾&#12301;&#12290; </li>
+				<li>在剛新增的那一列點擊右方&#12300;連結管理&#12301;&#12290; </li>
+				<li>點擊&#12300;新增連結&#12301;按鈕&#12290; </li>
+				<li>在新增連結列的&#12300;名稱&#12301;欄位填入剛複製的貼紙語法&#12290; </li>
+				<ol>
+					<li>&#12300;刪除連結&#12301;設定為未勾選&#12290; </li>
+					<li>&#12300;隱藏連結&#12301;設定為&#12300;否&#12301;&#12290; </li>
+					<li>&#12300;描述&#12301;&#12289;&#12300;網址&#12301;欄位保持為空欄位&#12290; </li>
+					<li>排列順序&#12301;設定為&#12300;0&#12301;&#12290; </li>
+				</ol>
+				<li>點擊&#12300;確定&#12301;按鈕--&gt;點擊&#12300;回前頁&#12301;--&gt;完成安裝&#12290;</li>
+			</ol>	
+		</div>
+		<div id="pixnet" style="display:none">
+			<ol>
+				<li>登入後&#65292;點選&#12300;管理後台&#12301;--&gt;&#12300;部落格管理&#12301;--&gt;&#12300;側邊欄位設定&#12301;&#12290;</li>
+				<li>點選&#12300;新增自訂欄位&#12301;&#12290; </li>
+				<ol>
+					<li>於自訂欄位名稱填入&#12300;空行母─性別、身分定位，以及藏傳佛教&#12301;&#12290; </li>
+					<li>於自訂欄位內容貼入剛複製的貼紙語法&#12290; </li>
+					<li>點選&#12300;送出&#12301;&#12290; </li>
+				</ol>
+				<li>將&#12300;未使用欄位&#12301;中的&#12300;空行母─性別、身分定位，以及藏傳佛教&#12301;欄位拖曳到左邊的&#12300;側欄1&#12301;裡&#12290; </li>
+				<li>點選&#12300;儲存版面&#12301;&#12290; </li>
+				<li>點選&#12300;我的部落格&#12301;即可看到安裝完成&#12290;</li>
+			</ol>
+		</div>
+		<div id="yahoo" style="display:none">
+			<ol>
+				<li>登入後&#65292;點選&#12300;管理部落格&#12301;&#12290; </li>
+				<li>進入&#12300;管理我的部落格&#12301;畫面後&#65292;點選&#12300;管理自訂欄位&#12301;&#12290; </li>
+				<ol>
+					<li>在&#12300;自訂欄位名稱&#12301;欄位填入&#12300;空行母─性別、身分定位，以及藏傳佛教&#12301;字樣&#12290; </li>
+					<li>在&#12300;自訂欄位內容&#12301;欄位貼入剛複製的貼紙語法&#12290;</li>
+					<li>點選&#12300;儲存&#12301;&#12290; </li>
+				</ol>
+				<li>確認欄位已新增完成&#65292;並為&#12300;顯示&#12301;的狀態--&gt;貼圖完成&#12290; </li>
+			</ol>	
+		</div>
+		<div id="yam" style="display:none"> 
+			<ol>
+				<li>登入後&#65292;進入部落格管理介面&#65292;點選&#12300;功能設定&#12301;--&gt;&#12300;自訂欄位&#12301;&#12290;在&#12300;自由欄位&#12301;那一列點選&#12300;加入&#12301;按鈕&#12290; </li>
+				<li>在自由欄位填入欄位標題為「空行母─性別、身分定位，以及藏傳佛教」。&#12290; </li>
+				<li>在本文區域內貼 空行母─性別、身分定位，以及藏傳佛教 的貼紙語法。</li>
+				<li>接著點選&#12300;儲存設定&#12301;&#12290; </li>
+				<li>用滑鼠直接移動順序，然後按「儲存排序」</li>
+				<li>點選&#12300;預覽部落格&#12301;下拉選單中的&#12300;網誌&#12301;--&gt;安裝完成&#12290; </li>
+			</ol>	
+		</div>
+		<div id="xuite" style="display:none">
+			<ol>
+				<li>登入後&#65292;點選&#12300;管理後台&#12301;--&gt;&#12300;編排欄位(含自由欄位)&#12301;&#12290; </li>
+				<li>進入&#12300;自由欄位設定&#12301;畫面後&#65292;點選&#12300;新增自由欄位&#12301;&#12290; </li>
+				<ol>
+					<li>在&#12300;欄位名稱&#12301;填寫&#12300;空行母─性別、身分定位，以及藏傳佛教&#12301;&#12290; </li>
+					<li>在&#12300;本文&#12301;欄位貼入剛複製的貼紙語法&#12290; </li>
+					<li>選擇排列「左」、「右」、「未選取區」擇一，點選「確定儲存」。</li>
+					<li>進入「版面編排編輯區」畫面後，將剛新增的「空行母─性別、身分定位，以及藏傳佛教」，若以上3.的步驟選擇「未選取區」則需由右側「未選欄位」 區塊中拖曳至左側區塊。</li>
+					<li>點選「看預覽頁」，並確認首頁出現串聯貼圖。</li>
+					<li>點選&#12300;確認送出&#12301;&#12290; </li>
+				</ol>
+				<li>貼圖完成&#12290;</li>
+			</ol>
+		</div>
+		<div id="happy" style="display:none">
+			<ol>
+				<li>登入後&#65292;從管理頁面&#65292;進入&#12300;首頁插入欄位&#12301;&#12290; </li>
+				<li>進入&#12300;首頁插入欄位的設定&#12301;畫面後&#65292;直接加入「自由欄位」部分&#12290; </li>
+				<li>將語法複製進「本文」欄位裡，點選不自動換行；點選「儲存設定」。 </li>
+				<li>至「首頁欄位」自由欄位修改名稱即完成。</li>
+			</ol>
+		</div>
+		<div id="udn" style="display:none">
+			<ol>
+				<li>登入後，從管理中心進入「首頁管理」</li>
+				<li>進入「自訂欄位」填入「順序」號碼</li>
+				<li>勾選「自訂欄位」在「自訂欄位名稱」欄位填入「空行母─性別、身分定位，以及藏傳佛教 」字樣。 </li>
+				<li>在「自訂欄位內容」欄位貼入剛複製的貼紙語法。</li>
+				<li>點選「確定」。</li>
+				<li>貼圖完成</li>
+			</ol>
+		</div>
+		<div id="gblogger" style="display:none">
+			<ol>
+				<li>登入後，進入管理</li>
+				<li>點選「版面配置」 點選 「新增小工具」</li>
+					<ol>
+						<li>選 「HTML/JavaScript」 於「標題」填入「空行母─性別、身分定位，以及藏傳佛教」</li>
+						<li>內容貼入剛複製的貼紙語法</li>
+					</ol>			
+				<li>點選「儲存排列方式」 </li>
+				<li>點選「檢視網誌」即可看到安裝完成。</li>
+			</ol>
+		</div>
+	</div>
+		
+</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td><a target="_blank" href="http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&utm_medium=Traveller&utm_campaign=2" title="空行母─性別、身分定位，以及藏傳佛教"><img src="http://farm9.staticflickr.com/8070/8205089293_bb9a2c934e_o.gif" alt="空行母─性別、身分定位，以及藏傳佛教" style="border:0"/></a></td>
+		<td>
+			<div style="position:relative"><a class="button gray" act="copy" href="javascript:return false">複製語法</a></div>
+		<textarea cols="40" name="Html" readonly="readonly" rows="7">
+&lt;a target=&quot;_blank&quot; href=&quot;http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&amp;utm_medium=Traveller&amp;utm_campaign=2&quot; title=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8070/8205089293_bb9a2c934e_o.gif&quot; alt=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot; style=&quot;border:0&quot;/&gt;&lt;/a&gt;
+</textarea>
+</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td><a target="_blank" href="http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&utm_medium=Traveller&utm_campaign=3" title="空行母─性別、身分定位，以及藏傳佛教"><img src="http://farm9.staticflickr.com/8345/8205089353_11883fe5f0_o.gif" alt="空行母─性別、身分定位，以及藏傳佛教" style="border:0"/></a></td>
+		<td><div style="position:relative"><a class="button gray" act="copy" href="javascript:return false">複製語法</a></div><textarea cols="40" name="Html" readonly="readonly" rows="7">
+&lt;a target=&quot;_blank&quot; href=&quot;http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&amp;utm_medium=Traveller&amp;utm_campaign=3&quot; title=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8345/8205089353_11883fe5f0_o.gif&quot; alt=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot; style=&quot;border:0&quot;/&gt;&lt;/a&gt;
+</textarea>
+</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td><a target="_blank" href="http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&utm_medium=Traveller&utm_campaign=4" title="空行母─性別、身分定位，以及藏傳佛教"><img src="http://farm9.staticflickr.com/8061/8205089391_bd88e26122_o.jpg" alt="空行母─性別、身分定位，以及藏傳佛教" style="border:0"/></a>
+</td>
+		<td><div style="position:relative"><a class="button gray" act="copy" href="javascript:return false">複製語法</a></div><textarea cols="40" name="Html" readonly="readonly" rows="7">
+&lt;a target=&quot;_blank&quot; href=&quot;http://books.enlighten.org.tw/project/traveller/index.html?utm_source=Banner&amp;utm_medium=Traveller&amp;utm_campaign=4&quot; title=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8061/8205089391_bd88e26122_o.jpg&quot; alt=&quot;&#x7a7a;&#x884c;&#x6bcd;&#x2500;&#x6027;&#x5225;&#x3001;&#x8eab;&#x5206;&#x5b9a;&#x4f4d;&#xff0c;&#x4ee5;&#x53ca;&#x85cf;&#x50b3;&#x4f5b;&#x6559;&quot; style=&quot;border:0&quot;/&gt;&lt;/a&gt;
+</textarea>
+</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

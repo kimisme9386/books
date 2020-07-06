@@ -1,0 +1,350 @@
+body {
+	width: 920px;
+	margin: auto;
+	height: auto;
+	font-family: "新細明體" , "細明體";
+	font-size: 17px;
+	color: #000;
+	line-height: 29px;
+background: #FEF1F6; /* Old browsers */
+background: -moz-linear-gradient(top,  #FEF1F6 0%, #efedea  100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEF1F6), color-stop(100%,#efedea )); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #FEF1F6 0%,#efedea  100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #FEF1F6 0%,#efedea  100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #FEF1F6 0%,#efedea  100%); /* IE10+ */
+background: linear-gradient(to bottom,  #FEF1F6 0%,#efedea  100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEF1F6', endColorstr='#efedea ',GradientType=0 ); /* IE6-9 */
+}
+#header {
+	width: 920px;
+}
+
+img{
+    border:0;
+}
+
+p{
+    text-indent:34px;
+    margin:0px 80px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+#introduction p{
+    padding:0px 0px 0px 80px;
+    margin:0px;
+ }
+   
+#author p, #preview p{
+    padding-top:20px;
+}
+#author p{
+    *line-height:28px;
+}
+
+#author > p:last-of-type{
+text-align:left;
+}
+ #passage a{
+    text-decoration: none;
+    color: #D65b51;
+ }
+ 
+ 
+ #cc a{
+     text-decoration: none;
+     color: #fff;
+ }
+
+#header_A {
+    background-color:#e1ddda;
+	background-image: url(../images/head01.jpg);
+	background-repeat: no-repeat;
+	height: 658px;
+	width: 920px;
+	text-align: right;
+}
+
+#header_B {
+	height: 51px;
+	width: 920px;
+    background-color:#eeedeb;
+	background-image: url(../images/menu.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+ul.menu {
+    float:left;
+    width:534px;
+    height:22px;
+    padding-left:108px;
+    *padding-left:66px;
+    *margin-top:20px;
+}
+ul.social{
+    width:160px;
+    height:44px;
+    float:right;
+    background:url(../images/icon.png) no-repeat;
+    background-position:4px  -1px;
+    padding:0px 60px 0px 0px;
+    margin-top:5px;
+    *padding-right:60px;
+
+}
+
+ul.social li  a{
+    display:block;
+    width:39px;
+    height:40px;
+    text-indent:-999999px;
+    margin:0px 5px;
+
+}
+
+
+
+
+#header_B  li{
+    float:left;
+    list-style:none;
+
+}
+
+.m1, .m2, .m3, .m4{
+    text-indent:-999999px;
+    background:url(../images/menu-a.png) no-repeat;
+    background-position:0px 0px;
+    display:block;
+    width:130px;
+}
+.m2{
+    background-position:-130px 0px; 
+    width:131px;
+}
+.m3{
+    background-position:-261px 0px; 
+    width:143px;
+}
+.m4{
+    background-position:-404px 0px; 
+    width:129px;
+}
+
+.m1:hover, .m2:hover, .m3:hover, .m4:hover{
+    text-indent:-999999px;
+    background:url(../images/menu-a.png) no-repeat;
+    background-position:0px -29px;
+    display:block;
+}
+.m2:hover{
+    background-position:-130px -29px; 
+}
+.m3:hover{
+    background-position:-261px -29px; 
+}
+.m4:hover{
+    background-position:-404px -29px; 
+}
+
+
+#content {
+	width: 920px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 20px #989898;
+}
+
+
+#introduction{
+    background-image: url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+    background-color:#F8F6F3;
+    height:504px;
+}
+
+#author{
+    background-image: url(../images/bg2.jpg);
+	background-repeat: no-repeat;
+    background-color:#DDD8D1;
+    height:984px;
+}
+
+#author > img{
+    margin:70px 0px 16px 10px;
+    *margin:70px 0px 30px 10px;
+}
+
+#preview{
+    background-color:#d5d1c8;
+    background-image: url(../images/bg3.jpg);
+	background-repeat: no-repeat;
+    height:1074px;
+}
+
+#passage{
+    background-color:#e9e5e2;
+    background-image: url(../images/bg4.jpg);
+	background-repeat: no-repeat;
+    height:164px;
+}
+
+#passage p{
+    text-indent:0px;
+    width:700px;
+    padding-top:50px;
+    margin-left:108px;
+	*padding-top:0px;
+	*margin:50px 0px 0px 110px;
+}
+
+#title-1, #title-2, #title-3, #title-4{
+	background-image: url(../images/title.png);
+	background-repeat: no-repeat;
+	height:120px;
+    width:108px;
+    text-indent:-9999999px;
+    float:left;
+    margin-left:55px;
+    margin-top:50px;
+}
+
+#title-2{
+    background-position:0px -120px;
+    margin-top:10px;
+}
+#title-3{
+    background-position:0px -250px;
+    margin-top:35px;
+}
+#title-4{
+    background-position:0px -380px;
+    margin-top:0px;
+}
+
+#footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	height:181px;
+	background-color:#8ac53e;
+}
+#cc {
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	padding-top: 45px;
+	padding-bottom:20px;
+	text-align: center;
+	color: #fff;
+	line-height: 20px;
+	font-weight: bold;
+    text-shadow: 0px 0px 5px #363636;
+}
+
+
+
+#book{
+	width:299px;
+    height:361px;
+	float:right;
+    margin-top:-100px;
+	
+}
+
+a#top {
+      
+    font-family: "times new roman";
+    font-size:14px;
+    color:#a29a8c;
+    text-decoration:none;
+    float:right;
+    width:70px;
+    display:block;
+    letter-spacing:1px;
+}
+
+#top span{
+        width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    border-color: transparent transparent #a29a8c transparent;
+    display:inline-block;
+    margin-right:5px;
+	*margin-bottom:10px;
+}
+
+
+ 
+ 
+.red-txt{
+    color:#d65b51;
+    font-size:18px;
+    font-weight:bold;
+    text-indent:0;
+    line-height:27px;
+    font-family: "Open Sans", "新細明體";
+}
+
+#introduction>.red-txt{
+    padding:95px 300px 23px 160px;
+ }
+
+#preview > .red-txt{
+    padding:75px 0px 40px 98px;
+}
+#preview > .red-txt >span{
+    display:block;
+    float:right;
+    font-size:16px;
+    padding-top:5px;
+    color:#d65b51;
+}
+
+
+
+#preview span.txt-1{
+    font-family: "標楷體","新細明體","細明體";
+
+}
+
+.txt-2{
+    font-family: "Open Sans", "新細明體";
+    font-weight:bold;
+
+}
+.txt-3{
+    font-size:14px;
+   font-family: "新細明體" , "細明體";
+
+}
+.txt-4{
+    font-size:13px;
+    color:#777;
+}
+
+
+#preview p.p-1{
+    padding-top:0px;
+    margin-top:0px;
+}
+
+#preview p.p-2{
+    padding-top:0px;
+    margin-top:0px;
+    text-indent:0px;
+    margin-left:108px;
+}
+
+#preview p.p-2 > span.txt-4{
+    float:right;
+    margin-right:60px;
+}
+
+.scroll-pane{
+    width:790px;
+    height:800px;
+    margin:10px  auto;
+    margin-left:80px;
+}
+.scroll-pane p{
+    margin:5px 20px 20px 40px;
+}

@@ -1,0 +1,251 @@
+body {
+
+	margin: auto;
+	height: auto;
+	font-family: "細明體", "新細明體";
+	font-size: 16px;
+	color: #000;
+	line-height: 28px;
+background: #CCB79A    ; /* Old browsers */
+background: -moz-linear-gradient(top, #CCB79A   ad 0%, #D7BFA0   100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCB79A    ), color-stop(100%,#D7BFA0    )); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #CCB79A    0%,#D7BFA0     100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #CCB79A     0%,#D7BFA0     100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #CCB79A     0%,#D7BFA0     100%); /* IE10+ */
+background: linear-gradient(to bottom,  #CCB79A     0%,#D7BFA0     100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCB79A   ', endColorstr='#D7BFA0    ',GradientType=0 ); /* IE6-9 */
+
+}
+
+img{
+border:none;
+}
+
+#content{
+width:920px;
+margin:0 auto;
+    background-color:#FAF3E7;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.36);
+}
+
+.bg1 ,.bg2 {
+	background-image: url(../images/bg1.jpg);
+	background-repeat: no-repeat;
+    background-position:0 970px;
+    width:920px;
+    margin:0 auto;
+}
+
+.bg2{
+    background-image: url(../images/bg2.jpg);
+    background-position:0 2025px;
+    *background-position:0 2050px;
+
+}
+
+#content p{
+    text-indent:32px;
+    padding:5px 82px;
+
+}
+
+#content .last-p{
+float:right;
+    text-indent:0px;
+}
+
+
+#logo {
+	
+	height: 100px;
+background-color:#ECDEC7;
+}
+
+#logo img{
+    margin:12px 0px 0px 28px;
+}
+
+#header_A {
+	background-image: url(../images/head.jpg);
+	background-repeat: no-repeat;
+	height: 709px;
+
+}
+
+/*-------------------------------menu-------------------*/
+
+#header_B {
+	height: 161px;
+    background:url(../images/line.jpg) no-repeat;
+    background-position:center  bottom;
+    background-color:#FFFFFE;
+	
+}
+
+#header_B  li{
+    float:left;
+    list-style:none;
+
+}
+
+ul.menu {
+    
+    width:220px;
+    height:130px;
+    padding:12px 0px 14px 0px;
+    margin:0 auto;
+    *margin-left:360px;
+}
+ul.social{
+    width:160px;
+    height:44px;
+    float:left;
+    background:url(../images/social-icon.jpg) no-repeat;
+    background-position:4px  -1px;
+    margin:71px 0px 0px 58px;
+    padding-left:0px;
+  
+}
+
+ul.social li  a{
+    display:block;
+    width:39px;
+    height:40px;
+    text-indent:-999999px;
+    margin:0px 5px;
+
+}
+
+.m1, .m2, .m3, .m4{
+    text-indent:-999999px;
+    background:url(../images/menu.jpg) no-repeat;
+    background-position:0px 0px;
+    display:block;
+    width:42px;
+    height:122px;
+}
+.m2{
+    background-position:-42px 0px; 
+    width:62px;
+}
+.m3{
+    background-position:-104px 0px; 
+    width:59px;
+}
+.m4{
+    background-position:-163px 0px; 
+    width:45px;
+}
+
+
+
+#content_A {
+		height: 425px;
+}
+
+#content_A p {
+    padding-right:0px;
+    width:500px;
+    margin:0px;
+}
+
+
+
+
+
+#content_B >img+img{
+    margin:0px 0px 10px 82px;
+    display:block;
+}    
+    
+#content_D {
+    background-color: #F6E9D9;
+	background-image: url(../images/path-bg.jpg);
+	background-repeat: no-repeat;
+		height: 197px;
+}
+
+#content_D p {
+    text-indent:0px;
+    padding-left:170px;
+}
+#content_D a{
+    color:#8D0006;
+    text-decoration:none;
+}
+
+#footer {
+    background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+    background-position:top center;
+	background-color:#463B39;
+	height: 135px;
+
+}
+#cc {
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	padding-top: 30px;
+	text-align: center;
+	color: #FFF;
+	line-height: 20px;
+	font-weight: bold;
+}
+#cc img{
+    margin:5px 0px 0px 5px;
+}
+#book_buy {
+    float: right;
+    width: 280px;
+    height: 343px;
+    margin:-290px 50px 0px 0px;
+
+}
+
+
+
+
+#menu01{
+    padding:39px 0 15px 77px;
+}
+
+#menu02{
+    padding:26px 0 15px 77px;
+}
+
+#menu03{
+    padding:90px 0 0px 77px;
+}
+
+#menu04{
+    padding:16px 0 0px 77px;
+}
+/*-------------go top------------*/
+
+a#top {
+      
+    font-family: "times new roman";
+    font-size:14px;
+    color:#CE6756;
+    text-decoration:none;
+    float:right;
+    width:108px;
+    display:block;
+    letter-spacing:1px;
+    clear:both;
+}
+
+#top span{
+        width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 10px 7px;
+    border-color: transparent transparent #CE6756 transparent;
+    display:inline-block;
+    margin-right:5px;
+	*margin-bottom:10px;
+}
+
+#content_B a#top{
+    margin-top:15px;
+}

@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 800px;
+	font-family: "微軟正黑體";
+	font-size: 16px;
+	color: #000;
+	line-height: 30px;
+	margin: auto;
+background: #8ac2ce; /* Old browsers */
+
+
+background: -moz-linear-gradient(top,  #8ac2ce 5%, #9ebab7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#8ac2ce), color-stop(100%,#9ebab7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8ac2ce 5%,#9ebab7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8ac2ce 5%,#9ebab7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8ac2ce 5%,#9ebab7 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8ac2ce 5%,#9ebab7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ac2ce', endColorstr='#9ebab7',GradientType=0 ); /* IE6-9 */
+box-shadow: .5px .5px 30px #56829B;
+
+
+}
+
+
+
+img{
+	border:0px;
+	
+}
+
+ul.TabbedPanelsTabGroup p{
+	 padding: 1px 0px 0px 0px;
+	 *padding: 15px 0px 0px 0px;
+	 
+}
+#content{
+background-image: url(../images/bg.jpg);
+background-repeat: repeat;
+}
+
+
+#header01 {
+	background-image: url(../images/header01.png);
+	background-repeat: no-repeat;
+	background-position:right bottom;
+	height: 290px;
+	width: 800px;
+}
+#header02 {
+}
+#header03 {
+	background-image: url(../images/head02.gif);
+	background-repeat: no-repeat;
+	background-position:right top;
+	height: 71px;
+	width: 800px;
+}
+/*
+#content-01 {
+	height: 48px;
+	width: 800px;
+}
+*/
+#content-01 img , #content-03 img , #content-05 img , #content-07 img{
+display:block;
+margin:0 auto;
+
+}
+#content-03 img {clear:both;}
+/*
+#content-02 {
+	height: 411px;
+	width: 800px;
+}
+*/
+#content-02 p{
+margin: 0px 290px 0px 70px;
+padding:25px 0px;
+text-indent:32px;
+}
+/*
+#content-03 {
+	height: 53px;
+	width: 800px;
+}
+
+
+#content-04 {
+	height: 580px;
+	width: 800px;
+		}*/
+		
+#content-04 p{
+text-indent:36px;
+margin:0px 15px 0px 15px;
+}
+
+#content-04-main{
+overflow-x: hidden;
+overflow-y: auto;
+font-family: 標楷體;
+font-size: 18px;
+height: 550px;
+width: 690px;
+margin:25px auto 30px auto;
+
+
+}	
+/*
+#content-05 {
+	height: 52px;
+	width: 800px;
+}
+#content-06 {
+	height: 600px;
+	width: 800px;
+}*/
+.TabbedPanelsContentGroup p{
+text-indent:32px;
+margin: 0px 15px 0px 15px;
+}
+
+.TabbedPanelsContentGroup h1{
+font-size: 18px;
+font-weight: bold;
+text-indent:46px;
+margin:0px;
+margin-bottom:-15px;
+}
+
+/*
+#content-07 {
+	height: 52px;
+	width: 800px;
+}
+*/
+#content-08 {
+	text-align: center;
+	}
+	
+#content-08 a{	
+text-decoration: none;
+color: #6783BB;
+}
+	
+#footer {
+	font-size: 14px;
+	padding-top: 15px;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+	background-color: #8394B3;
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	height: 87px;
+	width: 800px;
+}
+#apDiv1 {
+	position: absolute;
+	width: 151px;
+	height: 49px;
+	z-index: 1;
+	margin-left: 530px;
+	margin-top: 20px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 198px;
+	height: 52px;
+	z-index: 1;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#apDiv3 {
+	width: 270px;
+	padding-bottom: 20px;
+	float:right;
+	margin-top: -420px;
+	margin-right:10px;
+	
+		}
+	
+#apDiv3 p{
+   text-align: center;
+  font-weight: bold;
+   margin:0px;
+   padding:0px;
+   text-indent: 0px;
+}
+
+#apDiv3  img{
+margin: 0 auto;
+display:block;
+}
+
+/*for IE10 ie11*/
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+   /* IE10-specific styles go here */
+   .TabbedPanelsContentGroup h1{margin-bottom:10px;}
+   
+   .TabbedPanelsContentGroup p{   margin:5px 15px 10px 15px;   }
+   
+   #content-04 p{margin:5px 15px 10px 15px;}
+   }
+   
+ /*for IE9 ie8*/  
+  .TabbedPanelsContentGroup h1{margin-bottom:10px\9;}
+   
+   .TabbedPanelsContentGroup p{   margin:5px 15px 10px 15px\9;   }
+   
+   #content-04 p{margin:5px 15px 10px 15px\9;} 
+   
+  /*for IE7*/    
+  .TabbedPanelsContentGroup h1{*margin-bottom:-10px;}
+   
+   .TabbedPanelsContentGroup p{  *margin:0px 15px 0px 15px;   }
+   
+   #content-04 p{*margin:0px 15px 0px 15px; } 
+  
+  

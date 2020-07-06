@@ -1,0 +1,376 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css); /*引入google的楷體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);  /*引入google的仿宋體*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);  /*引入google的黑體*/
+
+
+
+body {
+	margin:0 auto;
+	color: #44342b;
+    font-size:21px;
+	line-height: 1.5em;
+    font-family: 'cwTeXFangSong', SimSun,"細明體","新細明體", serif,'Georgia'; 
+    background: url(../images/bg-big.jpg) no-repeat top center;
+    background-attachment: fixed;
+  
+}
+
+img{
+    border:0px;
+}
+
+p{
+    margin:20px 80px;
+    text-align:justify;
+    text-justify:inter-ideograph;
+}
+
+
+#container{
+   
+   /* box-shadow: 0px 0px 10px #6E6C6C;*/
+    width: 920px;
+    margin:0 auto;
+}
+
+
+
+
+.logo-block{ background-image: url(../images/head-logo.jpg);
+	background-repeat: no-repeat;
+    height:68px;
+    background-position: center top;
+    position:relative;
+}
+a.logo{
+display:block;
+    width:450px;
+    height:65px;
+}
+
+
+.head-1{ background-image: url(../images/head-1.jpg);
+	background-repeat: no-repeat;
+    height:481px;
+}
+
+
+/*------------------menu---------------------*/
+ul.menu {
+   border-top:solid 10px #ffe66a;
+    margin:0 auto;
+    height:50px;
+    background-color:#ffe66a66;
+        background-color: rgba(255, 230, 106, 0.47);
+    padding-left:270px;
+}
+
+
+ul.menu li{
+    float:left;
+    list-style:none;
+    padding-top:8px;
+}
+
+.m1, .m2, .m3, .m4{
+    text-indent:-999999px;
+    background:url(../images/menu.png) no-repeat;
+    background-position:0px 0px;
+    display:block;
+    width:148px;
+        height:30px;
+}
+.m2{
+    background-position:-148px 0px; 
+    width:148px;
+}
+.m3{
+    background-position:-296px 0px; 
+    width:148px;
+}
+
+.m4{
+    background-position:-446px 0px; 
+    width:150px;
+}
+
+
+
+.m1:hover, .m2:hover, .m3:hover, .m4:hover{
+    text-indent:-999999px;
+    background:url(../images/menu.png) no-repeat;
+    background-position:0px -45px;
+    display:block;
+    
+}
+.m2:hover{
+    background-position:-148px -45px; 
+}
+.m3:hover{
+    background-position:-296px -45px; 
+}
+.m4:hover{
+    background-position:-446px -45px; 
+}
+
+/*-----------------social-icon------------*/
+
+ul.social{
+    width:160px;
+    height:44px;
+    margin:0;
+    padding:0;
+  position:absolute;
+    right:35px;
+    bottom:5px;
+    
+}
+
+ul.social li{
+    float:left;
+    list-style:none;}
+
+ul.social li  a{
+    display:block;
+    width:39px;
+    height:40px;
+    text-indent:-999999px;
+    margin:0px 5px;
+  
+
+}
+#content{
+position:relative;
+}
+#book-buy{
+   background:url(../images/book.png) no-repeat;
+    background-position:left center;
+    width: 405px;
+height: 505px;
+position: absolute;
+    z-index:-1;
+}
+
+#book-buy-link a{
+ display: block;
+width: 220px;
+height: 430px;
+top: 80px;
+left: 28px;
+position: absolute;
+}
+
+#title-1{
+    position: absolute;
+top: 23px;
+left: 330px;
+}
+
+#content-txt{
+border:2px solid #50282b;
+    width:580px;
+    float:right;
+    margin:50px;
+  
+}
+
+#content-txt dl{
+margin: 35px 0 0 -7px;
+    padding-bottom: 30px;
+}
+
+
+#content-txt dt{
+font-size:26px;
+    font-family: 'cwTeXKai',"楷体","simkai", serif;
+    background:url(../images/content-title-list-style.png) no-repeat;
+    background-position:left center;
+    padding-left:52px;
+    font-weight:bold;
+    line-height:1.6em;
+}
+
+
+#content-txt dd{
+font-size:20px;
+    padding-left:38px;
+    line-height:1.4em;
+   }
+
+#content-txt dl span{
+font-size:17px;
+    color:#ab8e70;
+    font-family: 'cwTeXHei', "微軟正黑體",sans-serif; 
+    float: right;
+margin-right: 30px;
+   }
+
+#content-txt dt.title-1{
+background:none;
+}
+
+#content-txt dd.title-2{
+padding-left:57px;
+}
+
+#content-txt dl span.number-big{
+font-size: 22px;
+font-weight: normal;
+}
+.content-left-bg{  
+    background:url(../images/content-left-bg.png) no-repeat;
+    background-position:left bottom;
+    width:281px;
+    height:671px;
+    position:absolute;
+    bottom:157px;
+    z-index:-1;
+}
+.content-right-bg{  
+    background:url(../images/content-right-bg.png) no-repeat;
+    background-position:right bottom;
+    width:90px;
+    height:671px;
+    position:absolute;
+    right:0;
+    bottom:157px;
+    z-index:-1;
+}
+.content-bottom-bg{  
+    background-color:#ffe66a66;
+        background-color: rgba(255, 230, 106, 0.47);
+   height:17px;
+    position:absolute;
+    bottom:140px;
+    width:920px;
+    z-index:-1;
+}
+.content-bottom2-bg{  
+    background-color:#ffe66acc;
+        background: rgba(255, 230, 106, 0.70);
+   height:140px;
+    position:absolute;
+     bottom:0;
+    z-index:-1;
+    width:920px;
+}
+.clear-box{
+clear:both;
+}
+#introduction{
+padding-bottom:50px;
+     background:url(../images/bg-introduction.png) no-repeat;
+    background-position:center bottom;
+    background-color:#d4cfea80;
+    background-color: rgba(212, 207, 234, 0.70);
+}
+#introduction>img{
+padding:30px 0px 0px 45px;
+}
+
+#introduction p{
+    color:#493977;
+    text-indent:2em;
+}
+
+#author{
+background-color:#e4dac780;
+        background-color: rgba(228, 218, 199, 0.70);
+
+}
+
+#author>img:first-of-type{
+padding:30px 0px 20px 45px;
+}
+#author>img:first-of-type+img,#author p+img{
+margin:0 auto;
+    display:block;
+}
+#author>img:first-of-type+img+img{
+float:left;
+    padding: 33px 10px 30px 30px;
+}
+
+#author p{
+text-indent:2em;
+}
+
+#author p+img{
+padding-bottom:40px;}
+
+#passage{
+color:#774d4d;
+}
+
+#passage>img{
+padding:30px 0px 20px 45px;
+}
+
+#passage a{
+color:#44342b;
+     text-decoration:none;
+}
+#passage a:hover{
+color:#b77337;
+}
+
+
+
+#footer {
+	background-color:#44362bcc;
+        background-color: rgba(68, 54, 43, 0.66);
+	height: 130px;
+	
+}
+#cc {
+	font-family: 'cwTeXHei', sans-serif, "微軟雅黑體","微軟正黑體";
+	font-size: 15px;
+	padding-top: 25px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 20px;
+	   
+}
+#cc a{
+    text-decoration: none;
+    color: #fbea6a;
+}
+
+#cc a:hover{
+    text-decoration: none;
+    color: #fbde00;
+}
+
+#cc img{
+    vertical-align: middle;
+    padding: 5px 7px;
+    margin:0;
+    display:inline-block;
+}
+
+.scrollup {
+width: 70px;
+height: 70px;
+opacity: 0.95;
+position: fixed;
+bottom: 20px;
+right: 50px;
+display: none;
+    border: 2px solid #FFC107;
+    font-family: 'cwTeXHei', sans-serif, "微軟雅黑體","微軟正黑體";
+border-radius: 50px;
+color: #FFC107;
+text-decoration: none;
+line-height: 70px;
+text-align: center;
+letter-spacing: 1px;
+
+}
+
+
+.scrollup:hover {
+    background-color:#ffde50cc ;
+        background-color: rgba(255, 222, 80, 0.77);
+		    color: #FFF;
+    border: none;
+}

@@ -1,0 +1,143 @@
+/*made by mica 20140630*/
+
+body {
+	width: 900px;
+	margin: auto;
+	height: auto;
+	font-family: "細明體", "新細明體";
+	font-size: 16px;
+	color: #000;
+	line-height: 30px;
+background: #cecdad; /* Old browsers */
+background: -moz-linear-gradient(top,  #cecdad 0%, #e0d4cc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cecdad), color-stop(100%,#e0d4cc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #cecdad 0%,#e0d4cc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #cecdad 0%,#e0d4cc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #cecdad 0%,#e0d4cc 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #cecdad 0%,#e0d4cc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecdad', endColorstr='#e0d4cc',GradientType=0 ); /* IE6-9 */
+
+}
+
+img{border:0px;}
+
+#content p{
+padding:0 100px;
+    margin:0px;
+    text-indent:32px;
+}
+
+
+#header_A {
+	background-image: url(../images/head01.jpg);
+	background-repeat: no-repeat;
+	height: 543px;
+	width: 900px;
+}
+#header_B {
+	height: 61px;
+	width: 900px;
+}
+#if {
+	padding-left: 600px;
+	padding-top: 30px;
+}
+#content_m01 {
+	width: 900px;
+	height: 75px;
+}
+#content_m01-1 {
+	background-image: url(../images/m01-1.jpg);
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 326px;
+}
+
+#content_m01-1 p{
+padding:0px 100px 0px 360px;
+
+}
+
+
+#content_m01-2 {
+	width: 900px;
+	height: 23px;
+}
+#content_m02 {
+	width: 900px;
+	height: 51px;
+}
+#content_m02-1 {
+	background-image: url(../images/m02-1.jpg);
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 297px;
+}
+#content_m02-2 {
+	width: 900px;
+	height: 23px;
+}
+#content_m03 {
+	width: 900px;
+	height: 51px;
+}
+#content_m03-1 {
+	background-image: url(../images/m03-1.jpg);
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 299px;
+}
+#content_m03-2 {
+	width: 900px;
+	height: 23px;
+}
+#content_m03-3 {
+	width: 900px;
+	height: 80px;
+}
+#content_m04 {
+	width: 900px;
+	height: 51px;
+}
+#content_m04-1 {
+	background-image: url(../images/m04-1.jpg);
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 107px;
+    color: #630;
+}
+#content_m04-1 a {
+text-decoration: none;color: #639;
+
+}
+
+#footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	height: 131px;
+	width: 900px;
+}
+#cc {
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	padding-top: 15px;
+	text-align: center;
+	color: #FFF;
+	line-height: 20px;
+	font-weight: bold;
+}
+#logo {
+	width: 341px;
+	height: 83px;
+	margin-left: 20px;
+}
+
+#apDiv2 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 2;
+	margin-left: 90px;
+    *margin-left:50px;
+	margin-top: -30px;
+}

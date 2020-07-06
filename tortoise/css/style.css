@@ -1,0 +1,265 @@
+body {
+	width: 900px;
+	margin: auto;
+	height: auto;
+	font-family:"Microsoft JhengHei","微軟正黑體", "細明體", "新細明體";
+	font-size: 16px;
+	color: #000;
+	line-height: 1.8em;
+background: #ececec;
+}
+
+img{border:0;}
+
+p{
+margin:0px;
+text-align:justify;
+    text-justify:inter-ideograph;
+}
+#content_m01-1{
+background-image: url(../images/book-bg.jpg) ;
+        background-position: top center;
+    background-repeat:no-repeat;
+    position:relative;
+  
+}
+
+#content_m01-1 p{
+    padding:20px 0px 0px 138px;
+    width:380px;
+    font-size:17px;
+ 
+ }
+#content_m01-1 img[alt*="平實導師"]{
+padding-right:5px;
+    vertical-align:text-top;
+}
+
+
+ 
+
+
+ #content_m04-1 p{ 
+     padding:5px 0px 10px 140px;
+     color:#6b1406;
+     font-weight:bold;
+ }
+ 
+
+
+ #content_m04-1 a{
+ text-decoration: none;color: #085584;
+ }
+ 
+  #content_m04-1 a:hover{
+  color:#54297a;
+  }
+ #cc a{text-decoration: none;color: #fff;}
+#header_A {
+    background-color:#fcfcfc;
+	background-image: url(../images/head01.jpg) ;
+    background-position: center bottom;
+	background-repeat: no-repeat;
+	height: 891px;
+	width: 900px;
+	    
+}
+
+#header_A a{
+    width: 370px;
+height: 60px;
+position: absolute;
+top: 10px;
+left: 70px;
+    
+}
+
+
+
+#header_B{
+	height: 66px;
+    background:url(../images/menu-bg.jpg) no-repeat;
+   	}
+
+ul.menu {
+   position:absolute;
+width:360px;
+height:30px;
+right:205px;
+
+}
+ul.social{
+
+height:44px;
+float:right;
+background:url(../images/icon.png) no-repeat;
+background-position:40px 2px;
+padding-right:50px;
+    margin-top: 5px;
+}
+
+ul.social li  a{
+display:block;
+width:45px;
+height:45px;
+text-indent:-999999px;
+padding:1px;
+
+}
+
+
+
+
+#header_B  li{
+float:left;
+list-style:none;
+ 
+
+}
+
+.m1, .m2, .m4{
+text-indent:-999999px;
+background:url(../images/menu.png) no-repeat;
+background-position:0px 0px;
+display:block;
+   width:120px;
+}
+.m2{
+background-position:-120px 0px; 
+
+}
+.m4{
+background-position:-237px 0px; 
+
+}
+
+.m1:hover, .m2:hover, .m4:hover{
+text-indent:-999999px;
+background:url(../images/menu.png) no-repeat;
+background-position:0px -52px;
+display:block;
+}
+.m2:hover{
+background-position:-120px -52px; 
+}
+.m4:hover{
+background-position:-237px -52px; 
+}
+
+
+#content {
+	width: 900px;
+	background:url(../images/bg.jpg) repeat;
+	box-shadow: 0px 0px 20px #b4b4b4;
+    position:relative;
+}
+
+
+#footer {
+   background:url(../images/footer-bg.jpg) no-repeat bottom center;
+    height:350px;
+    padding-top:40px;
+	
+}
+#cc {
+	padding-top: 25px;
+	padding-bottom:25px;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+    width:450px;
+    margin:60px auto 0px auto;
+    border:1px solid #3c6b01;
+    color:#fff;
+    text-shadow:1px 1px 3px #000;
+    
+    
+}
+
+#cc img{
+vertical-align:middle;
+    padding:5px;
+}
+
+#book{
+	position:absolute;
+    right:175px;
+    top:380px;
+   text-align: center;
+    height:100px;
+    line-height:1.5em;
+	
+}
+#book a{
+ color:#085584;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+#book a:hover{
+ color:#085584;
+}
+
+
+ .scrollup {
+    width: 55px;
+    height: 55px;
+    opacity: 0.95;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    display: none;
+    background:#085584;
+    border-radius:50px;
+    color:#fff;
+    text-decoration:none;
+    line-height:55px;
+    text-align:center;
+}
+.scrollup:hover{
+    background-color:#bc5c06;
+}
+
+.title-1{
+    margin-top:120px;
+    margin-left:108px;
+}
+.title-2{
+    margin-top:-20px;
+    margin-left:20px;
+}
+#menu04{
+       margin-left:108px;
+}
+
+#introduction{
+width:710px;
+    border:1px solid #085584;
+    margin:180px auto 40px auto;
+   }
+
+#introduction div{
+ width:682px;
+    margin:0px auto 12px;
+    background-color:#f1f1eb;
+}
+
+
+
+#introduction p{
+width:630px;
+    margin:0px auto;
+    padding-top:15px;
+}
+
+span{
+font-size:17px;
+    color:#085584;
+    
+}
+
+.bird{
+font-size:20px;
+      font-weight:bold;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>正覺網站連結</title> 
+	<link rel="stylesheet" href="themes/traveller.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile.structure-1.1.1.min.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.1.1.js"></script>
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<style>
+	  .ui-page { background: #F5F4E0;}
+	  body{ background: #F5F4E0;}
+	  .trav-text { font-size:18px;line-height:185% }
+	</style>
+	<script type="text/javascript" src="../js/do_link2form.js"></script>
+	<script type="text/javascript">
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-12620032-17']);
+				  _gaq.push(['_trackPageview']);
+				  (function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();</script>
+				  
+	<script type="text/javascript">
+	function recordOutboundLink(link, category, action) {
+	  try {
+		var myTracker=_gat._getTrackerByName();
+		_gaq.push(['myTracker._trackEvent', category ,  action ]);
+		//alert(link.getAttribute("gourl"));
+		//setTimeout('document.location = "' + link.href + '"', 100)
+		var objNewA = document.createElement("a");
+		objNewA.setAttribute("url",link.getAttribute("gourl"));
+		do_link2form(objNewA, true, "GET", "_BLANK");
+	  }catch(err){}
+	}</script>
+
+</head> 
+<body> 
+
+<div data-role="dialog">
+	
+		<div data-role="header" data-theme="a">
+			<h4>正覺網站連結</h4>
+
+		</div>
+
+		<div data-role="content" data-theme="a">
+			<a data-role="button" href="http://books.enlighten.org.tw/" target="_blank">正智書香園地</a>
+			<a data-role="button"  href="javascript:return false" gourl="http://www.enlighten.org.tw" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.enlighten.org.tw');return false;">佛教正覺同修會</a>
+			<a data-role="button" href="javascript:return false" gourl="http://foundation.enlighten.org.tw" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'foundation.enlighten.org.tw');return false;">正覺教育基金會</a>
+			<a data-role="button" href="javascript:return false" gourl="http://scholar.enlighten.org.tw" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'scholar.enlighten.org.tw');return false;">正覺學報</a>
+			<a data-role="button" href="javascript:return false" gourl="http://www.a202.idv.tw" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.a202.idv.tw');return false;">成佛之道</a>
+			<a data-role="button" href="javascript:return false" gourl="http://425go.blogspot.tw" onClick="recordOutboundLink(this, 'Traveller Outbound Links', '425go.blogspot.tw');return false;">425活動部落格</a>
+   
+			<a href="docs-dialogs.html" data-role="button" data-rel="back" data-theme="a">返回</a>    
+		</div>
+	</div>
+
+
+</body>
+</html>

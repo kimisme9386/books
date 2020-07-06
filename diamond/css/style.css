@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 900px;
+	margin: auto;
+	height: auto;
+	font-family: "細明體", "新細明體";
+	font-size: 16px;
+	color: #630;
+	line-height: 30px;
+	background: rgb(229,255,201); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(229,255,201,1) 0%, rgba(248,255,232,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,255,201,1)), color-stop(100%,rgba(248,255,232,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(229,255,201,1) 0%,rgba(248,255,232,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(229,255,201,1) 0%,rgba(248,255,232,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(229,255,201,1) 0%,rgba(248,255,232,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(229,255,201,1) 0%,rgba(248,255,232,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5ffc9', endColorstr='#f8ffe8',GradientType=0 ); /* IE6-9 */
+}
+#header {
+	width: 900px;
+}
+#header_A {
+	background-image: url(../images/head01.jpg);
+	background-repeat: no-repeat;
+	height: 85px;
+	width: 900px;
+	text-align: right;
+	background-position: center bottom;
+	background-color: #e0e0e0;
+	
+}
+#if {
+	padding-right: 50px;
+	padding-top: 40px;
+}
+#header_B {
+	background-image: url(../images/head02.jpg);
+	background-repeat: no-repeat;
+	height: 522px;
+	width: 900px;
+}
+#header_B a{display:block;
+	height: 522px;
+	width: 900px;
+	}
+#content {
+	background-image: url(../images/main_bg.jpg);
+	background-repeat: repeat-y;
+	width: 900px;
+	height: auto;
+}
+#content_A {
+	width: 900px;
+	height: 53px;
+}
+#content_B {
+	background-image: url(../images/main_Tbg.jpg);	    background-repeat: no-repeat;
+	background-position: center top;
+	width: 900px;
+	height: auto;
+	border-top:6px solid #ccc;
+	padding-top:25px;
+
+}
+#apDiv1 {
+	position: absolute;
+width: 251px;
+height: 110px;
+background-image: url(../images/m01-1.png);
+margin-top: 50px;
+margin-left: 600px;
+
+padding: 230px 0px 0px 0px;
+color: #000;
+text-align: center;
+font-family: 微軟正黑;
+font-weight: bold;
+}
+
+/*#apDiv2 {
+	position: absolute;
+	width: 46px;
+	height: 18px;
+	margin-top: 600px;
+	margin-left: 770px;
+}
+#apDiv3 {
+	position: absolute;
+	width: 46px;
+	height: 18px;
+	margin-top: 1670px;
+	margin-left: 770px;
+}
+#apDiv4 {
+	position: absolute;
+	width: 46px;
+	height: 18px;
+	margin-top: 2270px;
+	margin-left: 770px;
+}*/
+#apDiv5 {
+	position: absolute;
+	width: 336px;
+	height: 86px;
+	margin-top: 5px;
+	margin-left: 12px;
+}
+#content_C {
+	background-image: url(../images/main_mbg.jpg);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	width: 900px;
+	height: 33px;
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	text-align: center;
+	color: #900;
+	margin:30px 0px;;
+}
+#content_D {
+	width: 900px;
+	background-image: url(../images/main_bbg.jpg);
+	background-repeat: no-repeat;
+	height: 150px;
+	background-position: bottom;color:#630;
+	border-bottom:38px solid #ACBAA3;
+}
+#footer {
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	height: 108px;
+	width: 900px;
+	clear: both;
+}
+#cc {
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	padding-top: 15px;
+	text-align: center;
+	color: #FFF;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+/*MIA ADD 2013-0713*/
+.abgne_gotoheader{display:block;float:right;
+width:46px;height:18px;margin-top:25px;padding-right:3px;
+background-image: url(../images/top.gif);
+background-repeat: no-repeat;
+*margin-right:105px;
+}
+
+
+#menu01, #menu02, #menu03, #menu04{padding:0px 0px 0px 70px;}
+
+
+#content_D a, a:hover{text-decoration: none;color: #C90;}
+
+#cc a, a:hover{text-decoration: none;color: #fff;}
+
+p{padding:0px 100px 0px 100px;text-indent:32px;}
+.one{padding:0px 300px 0px 100px;text-indent:32px;}
+.green{color: #690;padding:0px 100px 0px 100px;text-indent:32px;}
+span{font-family: 標楷體;font-size: 20px;font-weight: bold;margin-bottom: -20px;
+display: block;}
+#subject{
+	width:750px;
+	height:480px; 
+	overflow:auto;
+	margin: 20px auto 0px auto;
+	}
+#subject p{padding: 0px 5px 0px 25px;text-indent:32px;}
+.lst-top{height:18px;
+	margin-right: 95px;
+	margin-top:-10px;
+padding-bottom: 20px;}
