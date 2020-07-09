@@ -34,12 +34,7 @@ text-align:justify;
  #content_m03-1 p{
  padding:10px 20px;
  }
- #content_m03-1 p:last-child{
-     padding-bottom:50px;
-     float:right;
-     padding-right:80px;
- 
- }
+ #content_m03-1 p:last-child{padding-bottom:50px;}
 
 #preview p{padding:0px 70px 0px 100px;}
 
@@ -185,7 +180,11 @@ background-position:-360px 0px;
    
 }
 
-
+/*
+#content_m03-1+.title-line{
+margin-top:50px;
+}
+*/
 
 .scroll-box-1{
    height: 370px;
@@ -214,7 +213,15 @@ background-position:-360px 0px;
     width:540px;
     margin:40px auto 0px auto;
 }
+#apDiv1 {
 
+	width: 388px;
+	height: 54px;
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+}
 #book{
 	float:left;
 	padding:0px;
@@ -263,6 +270,8 @@ padding-top:15px;
     bottom: 20px;
     right: 50px;
     display: none;
+   /* text-indent: -9999px;
+    background: transparent url("../images/top.png") no-repeat scroll 0% 0%;*/
     background:#8ca488;
     border-radius:50px;
     color:#fff;
