@@ -1,134 +1,318 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="description"
+      content="此經中言「不會是菩提，諸入不會故。」，又言「知是菩提，了眾生心行故。」，諸法之中絕待之實相境界，大乘菩薩妙道之智慧境界！誰能對話？"
+    />
 
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="此經中言「不會是菩提，諸入不會故。」，又言「知是菩提，了眾生心行故。」，諸法之中絕待之實相境界，大乘菩薩妙道之智慧境界！誰能對話？">
+    <meta
+      name="keywords"
+      content="維摩詰,佛門照妖鏡,如來藏,菩提,實義,解脫,阿賴耶識,正義"
+    />
 
-<meta name="keywords" content="維摩詰,佛門照妖鏡,如來藏,菩提,實義,解脫,阿賴耶識,正義">
-
-<title>《維摩詰經講記》──演述大乘不可思議解脫之深妙正義</title>
+    <title>《維摩詰經講記》──演述大乘不可思議解脫之深妙正義</title>
     <!---------------------設定FB捉圖-------------------------->
-    <meta content="images/book-400.jpg" property="og:image">
-<link href="images/head01.jpg" rel="image_src">
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta content="images/book-400.jpg" property="og:image" />
+    <link href="images/head01.jpg" rel="image_src" />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-latest.min.js"
+    ></script>
 
-<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-    
-
-    
- <!----------------------- MENU和回首頁------------------------>
+    <!----------------------- MENU和回首頁------------------------>
     <script type="text/javascript">
-   window.onload = function(){
-	$(function(){
-		// 幫 a.abgne_gotoheader 加上 click 事件
-		$('a.abgne_gotoheader').click(function(){
-			// 讓捲軸用動畫的方式移動到 0 的位置
-			// 感謝網友 sam 修正 Opera 問題
-			var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
-			$body.animate({
-				scrollTop: 0
-			}, 700);
+      window.onload = function () {
+        $(function () {
+          // 幫 a.abgne_gotoheader 加上 click 事件
+          $("a.abgne_gotoheader").click(function () {
+            // 讓捲軸用動畫的方式移動到 0 的位置
+            // 感謝網友 sam 修正 Opera 問題
+            var $body = window.opera
+              ? document.compatMode == "CSS1Compat"
+                ? $("html")
+                : $("body")
+              : $("html,body");
+            $body.animate(
+              {
+                scrollTop: 0,
+              },
+              700
+            );
 
-			return false;
-		});
-	});}
-	
-function moveToTarget(menuID){
-	var target = $("#menu0"+menuID);
-	var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
-	$body.animate({
-		scrollTop: target.position().top
-	}, 600);
-}
-</script>
+            return false;
+          });
+        });
+      };
 
-<!------------------- FB-twitter-google分享語法-------------------> 
-  <script>
-function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
-function twitter_click() {u=location.href;t=document.title;window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(u)+'&source='+encodeURIComponent(u)+'&text='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
-function google_click() {u=location.href;t=document.title;window.open('https://plus.google.com/share?url='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
-</script>        
-    
-</head>
+      function moveToTarget(menuID) {
+        var target = $("#menu0" + menuID);
+        var $body = window.opera
+          ? document.compatMode == "CSS1Compat"
+            ? $("html")
+            : $("body")
+          : $("html,body");
+        $body.animate(
+          {
+            scrollTop: target.position().top,
+          },
+          600
+        );
+      }
+    </script>
 
+    <!------------------- FB-twitter-google分享語法------------------->
+    <script>
+      function fbs_click() {
+        u = location.href;
+        t = document.title;
+        window.open(
+          "http://www.facebook.com/sharer.php?u=" +
+            encodeURIComponent(u) +
+            "&t=" +
+            encodeURIComponent(t),
+          "sharer",
+          "toolbar=0,status=0,width=626,height=436"
+        );
+        return false;
+      }
+      function twitter_click() {
+        u = location.href;
+        t = document.title;
+        window.open(
+          "https://twitter.com/intent/tweet?url=" +
+            encodeURIComponent(u) +
+            "&source=" +
+            encodeURIComponent(u) +
+            "&text=" +
+            encodeURIComponent(t),
+          "sharer",
+          "toolbar=0,status=0,width=626,height=436"
+        );
+        return false;
+      }
+      function line_click() {
+        u = location.href;
+        t = document.title;
+        window.open(
+          "https://lin.ee/97Gp5Bc",
+          "sharer",
+          "toolbar=0,status=0,width=626,height=436"
+        );
+        return false;
+      }
+    </script>
+  </head>
 
-<body>
+  <body>
     <div id="content">
-<div id="header_A">
-<div id="apDiv1"><a href="http://books.enlighten.org.tw/zh-tw/b/b-name/154-b01_022" target="_blank"><img src="images/head00.png" width="422" height="77" /></a></div>
-
-</div>
-  
-  <div id="header_B">
-      
-      <ul class="menu"><li><a class="m1" href="javascript:moveToTarget(1)">[書籍簡介]</a></li><li><a class="m2"  href="javascript:moveToTarget(2)">[關於作者]</a></li><li><a class="m3" href="javascript:moveToTarget(3)">[內容試閱]</a></li><li><a class="m4" href="javascript:moveToTarget(4)">[購書通路]</a></li></ul>
-
-
-</div>
-<ul class="social"><li><a href="javascript:return false" onclick="return fbs_click()"  target="_blank"  >fackbook</a></li>
-<li><a  href="javascript:return false" onclick="return twitter_click()"  target="_blank" >twitter</a></li>
-<li><a href="javascript:return false" onclick="return google_click()"  target="_blank" >google plus</a></li></ul>
-
-    
-<div id="content_A">
-    <img src="images/title-introduction.jpg" alt="書籍簡介" width="48" height="421" />
-   
-  <p  name="menu01" id="menu01"  >本經係 世尊在世時，由等覺菩薩維摩詰假藉疾病而演說之大乘菩提無上妙義，所說函蓋甚廣然極簡略，是故今時諸方大師與學人讀之悉皆錯解，何況能知其中隱含之深妙正義，是故普遍無法為人解說﹔若強為人說，則成依文解義而有諸多過失。今由平實導師公開宣講之後，詳實解釋其中密意，令維摩詰菩薩所說大乘不可思議解脫之深妙正法得以正確宣流於人間，利益當代學人及與諸方大師。書中詳實演述大乘佛法深妙不二智慧境界，顯示諸法之中絕待之實相境界，建立大乘菩薩妙道於永遠不敗不壞之地，以此成就護法偉功，欲冀永利娑婆人天。已經宣講圓滿，將整理成書、廣為流通，以利諸方大師及諸學人。</p>
-      <div id="book_buy"><a href="http://www.books.com.tw/products/0010388955" target="_blank"><img  src="images/m01-1.png" width="264" height="361" /></a></div>
-     
-    <div name="menu02" id="menu02"></div>
-</div>
-        
-<a href="#" class="abgne_gotoheader">top</a>
-
-<div id="content_B">
- 
-    <img src="images/venerable.jpg" alt="很平實的 蕭平實導師" width="195" height="21" />
-    
-    <p>平實導師，於甲申（1944）年出生於台灣中部小鎮農家。世代務農，祖父以耕讀持家，父、祖皆為三寶弟子。13歲喪母，初識無常。少時即好打坐及方外之術，亦習金石、拳術、古文、針灸等。自小厭惡迷信，每斥神造世人之說，不信神能造人。</p>
-    <p>兵役期滿後辭父離鄉，於台北市覓職；五年後成立事務所，執行業務；雖游於世務，而樂於暗助弱小。</p>
-    <p>歷練世間法18年後，於1985年歸依三寶，鼎力護法，勤修福德。自修持名念佛，精進二年之後自成無相念佛功夫。</p>
-    <p>1988年，平實導師應邀在許居士家中佛堂開始講說基本佛法，先講五蘊、十八界法之緣起性空、四聖諦、十二因緣等阿含基本佛法，以《阿含經》中所說佛法為說法的主要內容。</p>
-    <p>1989年初，平實導師轉進而改修體究念佛──參禪。從此開始常常住於「見山不是山」的境界中。十月初隨聖嚴法師前往天竺，作為期15天的朝禮聖地之旅，而中斷說法度眾之事。返國後，鑒於長時處於參禪狀態之「見山非山」境界中，不便繼續說法而暫停講課；並立即結束事務所業務，專心參禪。</p>
-    <p>因參禪始終沒有結果，後來 觀世音菩薩開示：「開悟哪有那麼簡單？心肝那麼沒閒！」（台語）所以1990年11月，平實導師中止了原來在某道場的許多義工事務，於家中開始閉關，摒絕一切外緣，專心苦參19天後，在第19天下午，終於驪龍頷下得珠──明心並且眼見佛性──發明智慧；因為無人可以印證故，嗣即深入經藏，以三乘法義印證無訛；不久又經 佛之召見，說明此世、往世因緣，給與印證。</p>
-  <p>有鑒於末法時期外道猖獗橫行於佛門中，正法日漸衰微，遂發悲勇，誓願度眾，隨即應允以前追隨 導師修學者之請求，乃於1991年仲夏復出弘法度眾。但因 平實導師以如來藏作為證悟之內容，各大山頭則皆同以意識離念靈知心，作為證悟之內容；各大山頭因為與 平實導師的法義不同故，竟謗為「不如法、邪魔外道、法義有毒」，聯合起來私下抵制如來藏正法，令如來藏正法難以永續弘傳。為免正法被如是常見外道法所取代，為護正法，平實導師毅然揭竿而作獅子吼，開始效法 玄奘菩薩之方式，以破斥邪說之方法來顯示正法的不同所在；如是弘傳了義正法，獨自面對諸方錯悟大師、各大道場之龐大勢力而無所畏懼。平易近人的 平實導師，卻作了這種大異常人的弘法志業。</p>
-   
-    <a href="#" class="abgne_gotoheader"  >top</a>
-    <div name="menu03" id="menu03"></div>
-</div>
-
-  <div name="menu03" id="menu03"></div>
-<div id="content_C">
-    <div class="title-preview"></div>
-     <img src="images/preview-p.jpg" alt="序言" width="51" height="21" />
- 
-    <p>大乘法之證悟，不許外於教門；若外於經典聖教開示，而言「所悟雖異於教門，然亦是宗門之悟」，當知即是錯悟，其所悟必定已經異於宗門之悟，教門所說法義正是說明宗門所悟內涵故。《維摩結經》是佛門照妖鏡，一切錯悟之師，都不敢援引此經來印證自己之所悟。一切六識論之邪見者，譬如應成派中觀見者及自續派中觀見者，都迴避此經的檢驗；或曲解此經，使經義偏離原意而符合其六識論邪見：故意以意識境界來解釋此經正理，取代為六識論之法義。</p>
-    <p>他們之所以會有如是行為，都因所悟錯誤而無法以此經義來為自己印證所致。此經中言：「不會是菩提，諸入不會故。」又言：「知是菩提，了眾生心行故。」同一真心，竟言無知無覺而不會六入，復言其實有知，能了知眾生七識心之心行，則使墜於意識境界之自續派中觀見者及應成派中觀見者，都無所適從；亦使墜於離念靈知意識心境界之禪門錯悟者，不知所從，是故心中每每排斥之，或故意以曲解之手段，扭曲經義來印證自己之所「悟」。然而意識心不論修至如何微細，都不能超過非想非非想定中之意識；三界中一切最細意識心，無過於此，過此境界即無意識存在；而意識心不能通過此經如是法義之驗證，故錯悟之說法者只能以意識心的不同方向來解說此部經文。</p>
-    <p>然而如是經文中之真正意涵，其實都是說第八識如來藏之本來清淨性與功德性，證明其非無而有真實性，亦證明其常住本來涅槃之中；若以意識解之者，都無法免於曲解經義之大過；卻異口同聲主張其曲解後之經義是佛說，即成為謗佛者，佛陀所說從來不是他們曲解後之義理故。由是故說，此經是禪宗證悟者自我印證之極重要經典，亦是錯悟者亟思加以曲解之重要經典；由此可以證明此經法義之熏習，對於禪門求悟般若禪者之重要性了！今以如是緣由，加以詳實宣講後，整理為文字，以口語化之易懂言語出版，藉以助益禪門大師與一切學人，始能建立正知正見而趨向正確方向求悟，庶能真實悟入般若正理。然求悟禪宗般若禪之人，仍必須先詳讀《識蘊真義》及《阿含正義》，確實斷除我見以後，方能藉此詳解而真實悟入法界實相心如來藏，方能發起實相般若智慧，實階第七住位不退，成為位不退菩薩，轉入內門廣修菩薩六度萬行；不斷我見而參禪者，終無真悟之可能，一切禪宗大師與學人，於此皆應注意。</p>
-
-<a href="#" class="abgne_gotoheader" >top</a>    
-</div>
-
-  
-
-  
-  
-<div id="content_D">
-     <img src="images/title-passage.jpg" alt="購書通路" width="48" height="133" />
-  <p name="menu04" id="menu04"  ><a href="http://www.books.com.tw" target="_blank" style="text-decoration: none;color: #900;">博客來網路書店</a>、<a href="http://www.kingstone.com.tw/" target="_blank" style="text-decoration: none;color: #900;">金石堂書局</a>、<a href="http://www.steppingstone.com.tw/" target="_blank" style="text-decoration: none;color: #900;">墊腳石書局</a>、<a href="http://www.eslite.com" target="_blank" style="text-decoration: none;color: #900;">誠品書局</a>、<a href="http://www.sanmin.com.tw" target="_blank" style="text-decoration: none;color: #900;">三民書局</a>、<a href="http://www.hess.com.tw/tw/bookstore/" target="_blank" style="text-decoration: none;color: #900;">何嘉仁書局</a>、<br /><a href="http://www.nobelbook.com.tw/" target="_blank" style="text-decoration: none;color: #900;">諾貝爾書局</a>、<a href="http://shopping.pchome.com.tw/?m=index&f=view&p=booksite" target="_blank" style="text-decoration: none;color: #900;">PChome網路書店</a>、<a href="https://www.iread.com.tw/" target="_blank" style="text-decoration: none;color: #900;">灰熊愛讀書網路書店</a><a style="color: #000;">.......等網路及實體門市。</a></p>
-   <a href="#" class="abgne_gotoheader">top</a>     
-</div>
-
-
-
-<div id="footer">
-  <div id="cc">欲得知佛教正覺同修會網站各項訊息，歡迎 <a href="http://www.enlighten.org.tw/epaper" target="_blank" style="text-decoration: none;color: #fff;">訂閱正覺e報</a>
-  <br />版權聲明 <img src="images/cc.jpg" alt="" width="88" height="31" />
-  <br />CC授權：姓名標示-非商業性-禁止改作 3.0 台灣歡迎推廣轉寄
-  </div>
-</div>
+      <div id="header_A">
+        <div id="apDiv1">
+          <a
+            href="http://books.enlighten.org.tw/zh-tw/b/b-name/154-b01_022"
+            target="_blank"
+            ><img src="images/head00.png" width="422" height="77"
+          /></a>
         </div>
-</body>
+      </div>
+
+      <div id="header_B">
+        <ul class="menu">
+          <li>
+            <a class="m1" href="javascript:moveToTarget(1)">[書籍簡介]</a>
+          </li>
+          <li>
+            <a class="m2" href="javascript:moveToTarget(2)">[關於作者]</a>
+          </li>
+          <li>
+            <a class="m3" href="javascript:moveToTarget(3)">[內容試閱]</a>
+          </li>
+          <li>
+            <a class="m4" href="javascript:moveToTarget(4)">[購書通路]</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="social">
+        <li>
+          <a
+            href="javascript:return false"
+            onclick="return fbs_click()"
+            target="_blank"
+            >fackbook</a
+          >
+        </li>
+        <li>
+          <a
+            href="javascript:return false"
+            onclick="return twitter_click()"
+            target="_blank"
+            >twitter</a
+          >
+        </li>
+        <li>
+          <a
+            href="javascript:return false"
+            onclick="return line_click()"
+            target="_blank"
+            >line plus</a
+          >
+        </li>
+      </ul>
+
+      <div id="content_A">
+        <img
+          src="images/title-introduction.jpg"
+          alt="書籍簡介"
+          width="48"
+          height="421"
+        />
+
+        <p name="menu01" id="menu01">
+          本經係
+          世尊在世時，由等覺菩薩維摩詰假藉疾病而演說之大乘菩提無上妙義，所說函蓋甚廣然極簡略，是故今時諸方大師與學人讀之悉皆錯解，何況能知其中隱含之深妙正義，是故普遍無法為人解說﹔若強為人說，則成依文解義而有諸多過失。今由平實導師公開宣講之後，詳實解釋其中密意，令維摩詰菩薩所說大乘不可思議解脫之深妙正法得以正確宣流於人間，利益當代學人及與諸方大師。書中詳實演述大乘佛法深妙不二智慧境界，顯示諸法之中絕待之實相境界，建立大乘菩薩妙道於永遠不敗不壞之地，以此成就護法偉功，欲冀永利娑婆人天。已經宣講圓滿，將整理成書、廣為流通，以利諸方大師及諸學人。
+        </p>
+        <div id="book_buy">
+          <a href="http://www.books.com.tw/products/0010388955" target="_blank"
+            ><img src="images/m01-1.png" width="264" height="361"
+          /></a>
+        </div>
+
+        <div name="menu02" id="menu02"></div>
+      </div>
+
+      <a href="#" class="abgne_gotoheader">top</a>
+
+      <div id="content_B">
+        <img
+          src="images/venerable.jpg"
+          alt="很平實的 蕭平實導師"
+          width="195"
+          height="21"
+        />
+
+        <p>
+          平實導師，於甲申（1944）年出生於台灣中部小鎮農家。世代務農，祖父以耕讀持家，父、祖皆為三寶弟子。13歲喪母，初識無常。少時即好打坐及方外之術，亦習金石、拳術、古文、針灸等。自小厭惡迷信，每斥神造世人之說，不信神能造人。
+        </p>
+        <p>
+          兵役期滿後辭父離鄉，於台北市覓職；五年後成立事務所，執行業務；雖游於世務，而樂於暗助弱小。
+        </p>
+        <p>
+          歷練世間法18年後，於1985年歸依三寶，鼎力護法，勤修福德。自修持名念佛，精進二年之後自成無相念佛功夫。
+        </p>
+        <p>
+          1988年，平實導師應邀在許居士家中佛堂開始講說基本佛法，先講五蘊、十八界法之緣起性空、四聖諦、十二因緣等阿含基本佛法，以《阿含經》中所說佛法為說法的主要內容。
+        </p>
+        <p>
+          1989年初，平實導師轉進而改修體究念佛──參禪。從此開始常常住於「見山不是山」的境界中。十月初隨聖嚴法師前往天竺，作為期15天的朝禮聖地之旅，而中斷說法度眾之事。返國後，鑒於長時處於參禪狀態之「見山非山」境界中，不便繼續說法而暫停講課；並立即結束事務所業務，專心參禪。
+        </p>
+        <p>
+          因參禪始終沒有結果，後來
+          觀世音菩薩開示：「開悟哪有那麼簡單？心肝那麼沒閒！」（台語）所以1990年11月，平實導師中止了原來在某道場的許多義工事務，於家中開始閉關，摒絕一切外緣，專心苦參19天後，在第19天下午，終於驪龍頷下得珠──明心並且眼見佛性──發明智慧；因為無人可以印證故，嗣即深入經藏，以三乘法義印證無訛；不久又經
+          佛之召見，說明此世、往世因緣，給與印證。
+        </p>
+        <p>
+          有鑒於末法時期外道猖獗橫行於佛門中，正法日漸衰微，遂發悲勇，誓願度眾，隨即應允以前追隨
+          導師修學者之請求，乃於1991年仲夏復出弘法度眾。但因
+          平實導師以如來藏作為證悟之內容，各大山頭則皆同以意識離念靈知心，作為證悟之內容；各大山頭因為與
+          平實導師的法義不同故，竟謗為「不如法、邪魔外道、法義有毒」，聯合起來私下抵制如來藏正法，令如來藏正法難以永續弘傳。為免正法被如是常見外道法所取代，為護正法，平實導師毅然揭竿而作獅子吼，開始效法
+          玄奘菩薩之方式，以破斥邪說之方法來顯示正法的不同所在；如是弘傳了義正法，獨自面對諸方錯悟大師、各大道場之龐大勢力而無所畏懼。平易近人的
+          平實導師，卻作了這種大異常人的弘法志業。
+        </p>
+
+        <a href="#" class="abgne_gotoheader">top</a>
+        <div name="menu03" id="menu03"></div>
+      </div>
+
+      <div name="menu03" id="menu03"></div>
+      <div id="content_C">
+        <div class="title-preview"></div>
+        <img src="images/preview-p.jpg" alt="序言" width="51" height="21" />
+
+        <p>
+          大乘法之證悟，不許外於教門；若外於經典聖教開示，而言「所悟雖異於教門，然亦是宗門之悟」，當知即是錯悟，其所悟必定已經異於宗門之悟，教門所說法義正是說明宗門所悟內涵故。《維摩結經》是佛門照妖鏡，一切錯悟之師，都不敢援引此經來印證自己之所悟。一切六識論之邪見者，譬如應成派中觀見者及自續派中觀見者，都迴避此經的檢驗；或曲解此經，使經義偏離原意而符合其六識論邪見：故意以意識境界來解釋此經正理，取代為六識論之法義。
+        </p>
+        <p>
+          他們之所以會有如是行為，都因所悟錯誤而無法以此經義來為自己印證所致。此經中言：「不會是菩提，諸入不會故。」又言：「知是菩提，了眾生心行故。」同一真心，竟言無知無覺而不會六入，復言其實有知，能了知眾生七識心之心行，則使墜於意識境界之自續派中觀見者及應成派中觀見者，都無所適從；亦使墜於離念靈知意識心境界之禪門錯悟者，不知所從，是故心中每每排斥之，或故意以曲解之手段，扭曲經義來印證自己之所「悟」。然而意識心不論修至如何微細，都不能超過非想非非想定中之意識；三界中一切最細意識心，無過於此，過此境界即無意識存在；而意識心不能通過此經如是法義之驗證，故錯悟之說法者只能以意識心的不同方向來解說此部經文。
+        </p>
+        <p>
+          然而如是經文中之真正意涵，其實都是說第八識如來藏之本來清淨性與功德性，證明其非無而有真實性，亦證明其常住本來涅槃之中；若以意識解之者，都無法免於曲解經義之大過；卻異口同聲主張其曲解後之經義是佛說，即成為謗佛者，佛陀所說從來不是他們曲解後之義理故。由是故說，此經是禪宗證悟者自我印證之極重要經典，亦是錯悟者亟思加以曲解之重要經典；由此可以證明此經法義之熏習，對於禪門求悟般若禪者之重要性了！今以如是緣由，加以詳實宣講後，整理為文字，以口語化之易懂言語出版，藉以助益禪門大師與一切學人，始能建立正知正見而趨向正確方向求悟，庶能真實悟入般若正理。然求悟禪宗般若禪之人，仍必須先詳讀《識蘊真義》及《阿含正義》，確實斷除我見以後，方能藉此詳解而真實悟入法界實相心如來藏，方能發起實相般若智慧，實階第七住位不退，成為位不退菩薩，轉入內門廣修菩薩六度萬行；不斷我見而參禪者，終無真悟之可能，一切禪宗大師與學人，於此皆應注意。
+        </p>
+
+        <a href="#" class="abgne_gotoheader">top</a>
+      </div>
+
+      <div id="content_D">
+        <img
+          src="images/title-passage.jpg"
+          alt="購書通路"
+          width="48"
+          height="133"
+        />
+        <p name="menu04" id="menu04">
+          <a
+            href="http://www.books.com.tw"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >博客來網路書店</a
+          >、
+          <a
+            href="http://www.kingstone.com.tw/"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >金石堂書局</a
+          >、
+          <a
+            href="http://www.steppingstone.com.tw/"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >墊腳石書局</a
+          >、
+          <a
+            href="http://www.eslite.com"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >誠品書局</a
+          >、
+          <a
+            href="http://www.sanmin.com.tw"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >三民書局</a
+          >、
+          <a
+            href="https://ecshweb.pchome.com.tw/book/v3.3/?q=%E5%B9%B3%E5%AF%A6%E5%B0%8E%E5%B8%AB"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >PChome</a
+          >、
+          <a
+            href="https://www.momoshop.com.tw/search/searchShop.jsp?keyword=%E6%AD%A3%E6%99%BA%E5%87%BA%E7%89%88%E7%A4%BE&searchType=6&curPage=1&_isFuzzy=0&brand=%E6%AD%A3%E6%99%BA%E5%87%BA%E7%89%88%E7%A4%BE&brandNo=20191202170744500&showType=chessboardType"
+            target="_blank"
+            style="text-decoration: none; color: #900"
+            >momo</a
+          >等網路及實體門市。
+        </p>
+
+        <a href="#" class="abgne_gotoheader">top</a>
+      </div>
+
+      <div id="footer">
+        <div id="cc">
+          欲得知佛教正覺同修會網站各項訊息，歡迎
+          <a
+            href="http://www.enlighten.org.tw/epaper"
+            target="_blank"
+            style="text-decoration: none; color: #fff"
+            >訂閱正覺e報</a
+          >
+          <br />版權聲明
+          <img src="images/cc.jpg" alt="" width="88" height="31" />
+          <br />CC授權：姓名標示-非商業性-禁止改作 3.0 台灣歡迎推廣轉寄
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

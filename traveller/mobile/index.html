@@ -40,7 +40,7 @@
 	<script>
 	function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
 	function twitter_click() {u=location.href;t=document.title;window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(u)+'&source='+encodeURIComponent(u)+'&text='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
-	function google_click() {u=location.href;t=document.title;window.open('https://plus.google.com/share?url='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}
+	function line_click() { u = location.href; t = document.title; window.open('https://lin.ee/97Gp5Bc', 'sharer', 'toolbar=0,status=0,width=626,height=436'); return false; }
 	</script>
 </head>
 <body>
@@ -61,13 +61,13 @@
 		-->
 		  <div>
 			  <a href="http://www.facebook.com/share.php?"onClick="return fbs_click()" target="_blank"><img width="30" src="images/fb.png" alt="facebook"/></a>&nbsp;&nbsp;&nbsp;
-			  <a href="javascript: return false;" onClick="return twitter_click()"><img width="30" src="images/twitter.png" alt="twritter"/></a>&nbsp;
-			  <a href="javascript: return false;" onClick="return google_click()"><img  style="vertical-align: bottom" width="40" src="images/google_plus.png" alt="google plus"/></a>
+			  <a href="javascript: return false;" onClick="return twitter_click()"><img width="30" src="images/twitter.png" alt="twritter"/></a>&nbsp;&nbsp;&nbsp;
+			  <a href="javascript: return false;" onClick="return line_click()"><img width="30" src="images/line.png" alt="line plus"/></a>
 		  </div>
 		<div data-role="collapsible" data-theme="a" data-collapsed="false" data-transition="slide">
 		   <h3>書籍介紹</h3>
 		   <p>
-				<a href="javascript:return false" gourl="http://www.books.com.tw/exep/prod/booksfile.php?item=0010553852" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.books.com.tw');return false;" target="_blank"><img src="../images/down_04.jpg" alt="空行母：性別、身分定位，以及藏傳佛教(二版)" width="247" height="362"  border="0" ></a>
+				<a href="javascript:return false" gourl="https://www.books.com.tw/prod_comment/comment_more/0010553852/1" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.books.com.tw');return false;" target="_blank"><img src="../images/down_04.jpg" alt="空行母：性別、身分定位，以及藏傳佛教(二版)" width="247" height="362"  border="0" ></a>
 		   </p>
 		   <p>
 				<span class="trav-text">本書作者為蘇格蘭哲學家，嚮往佛教深妙的哲學內涵，進入當年盛行於歐美的藏傳佛教密宗，擔任卡盧仁波切的翻譯工作多年以後，被邀請成為卡盧的空行母（又名佛母、明妃），開始了她在密宗裡的實修過程；後來發覺在密宗雙身法中的修行，其實無法成佛，也發覺密宗對女性歧視而處處貶抑，並剝奪女性在雙身法中擔任一半角色時應有的身份定位。當她發覺自己只是修雙身法中被喇嘛利用的工具，也發現密宗的父權社會控制女性的本質；於是傷心地離開了卡盧仁波切與密宗，但被恐嚇不許講出她在密宗裡的經歷與觀察，否則將被咒殺死亡。後來他去加拿大定居，十餘年後才擺脫這個恐嚇陰影，將親身經歷及觀察到的事實寫下來出版，公諸於世。此書所說具有針對藏傳佛教而作學術研究的價值，也使人認清藏傳佛教真相的實質，已入、未入藏傳佛教者都宜先讀為快。</span>
@@ -77,7 +77,8 @@
 		<div data-role="collapsible" data-theme="a" >
 		   <h3>名人推薦</h3>
 		   <p>
-				<iframe width="100%" height="360" src="http://www.youtube.com/embed/nfuYfWKWdWA" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/_l5mMZC9kQQ" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		   </p>
 		   <p>
 				<span class="trav-text">紅塵打滾多年，驀然回首往事，多為忙、茫、盲；加上人生不如意事，十之八九，真不知努力拚搏，所為何來？於是一些人開始尋求宗教力量慰藉空虛心靈。有人以為藏傳佛教也是佛教，汲汲營營追隨名聲響亮者諸如什麼法王、活佛、仁波切乃至諾貝爾和平獎得主等，以為這樣就是在尋求解脫、修行佛法。坎貝爾女士是佛教徒，從家鄉蘇格蘭漂洋過海到了印度一間喇嘛寺廟出家，後來成為上師的明妃。她坦承自己是「坦特羅密教（藏傳佛教）的性奴隸！」花了十多年勉強療瘉身心創傷，以嚴謹文字撰寫出版了《空行母》，她在書中以親身經歷揭發與喇嘛上師雙修真相，戳破藏傳佛教核心教義缺失，其勇氣智慧，難能可貴，同時更讓有心修學佛法者有慧眼作出揀擇。</span><br>
@@ -106,7 +107,7 @@
 				<span class="trav-text">空行母─就是跟喇嘛雙修的性伴侶明妃，作者坎貝爾在書中揭露了自己曾是藏傳佛教、喇嘛教某位知名的卡盧仁波切多年的秘密性伴侶，坎貝爾堅稱在這種性關係當中所隱藏的權利濫用，更足以暴露出整個藏傳佛教（喇嘛教）教義最核心的缺失！她整整等了十八年才克服了這些創傷而出版這本《空行母》(Traveller in Space)[1]來揭發真相。</span>
 			</p>
 			<p>
-				<span class="trav-text">事情發生經過如下，六○年間嬉皮年代，當June 坎貝爾在蘇格蘭家鄉成為一名佛教徒後，她接著就旅行到印度並在那裡出家成為比丘尼。她在一座西藏喇嘛寺廟裡待了十年，遠比任何一位西方人士都還深入接近這個信仰中的神秘高層。最後她更成為藏傳佛教密宗大師卡盧仁波切七十年代赴歐美演講時的隨身翻譯。「就是在那之後，」坎貝爾說：「他（譯案：卡盧仁波切）要求我成為他的性伴侶，與他雙身共修密法。」只有一個第三者知道她與卡盧仁波切間的這種關係— 一位侍從喇嘛—這個喇嘛也曾在坎貝爾所形容並參與的那種一女多男西藏密宗雙身共修關係中與她發生過性行為。 「好幾年過後，我才醒悟到就我當時所被侵犯與被利用的程度來說，那早已構成一種性剝削與糟蹋了。」            ...<a href="http://books.enlighten.org.tw/bookdetail.aspx?kind=2&bkid=319" target="_blank">閱讀更多</a></span>
+				<span class="trav-text">事情發生經過如下，六○年間嬉皮年代，當June 坎貝爾在蘇格蘭家鄉成為一名佛教徒後，她接著就旅行到印度並在那裡出家成為比丘尼。她在一座西藏喇嘛寺廟裡待了十年，遠比任何一位西方人士都還深入接近這個信仰中的神秘高層。最後她更成為藏傳佛教密宗大師卡盧仁波切七十年代赴歐美演講時的隨身翻譯。「就是在那之後，」坎貝爾說：「他（譯案：卡盧仁波切）要求我成為他的性伴侶，與他雙身共修密法。」只有一個第三者知道她與卡盧仁波切間的這種關係— 一位侍從喇嘛—這個喇嘛也曾在坎貝爾所形容並參與的那種一女多男西藏密宗雙身共修關係中與她發生過性行為。 「好幾年過後，我才醒悟到就我當時所被侵犯與被利用的程度來說，那早已構成一種性剝削與糟蹋了。」            ...<a href="https://foundation.enlighten.org.tw/newsflash/traveller" target="_blank">閱讀更多</a></span>
 			</p>
 		</div>
 		
@@ -114,17 +115,16 @@
 			<h3>購書通路</h3>
 			<p>
 				<ul data-role="listview" data-theme="b">
-					<li><a href="http://www.books.com.tw/exep/prod/booksfile.php?item=0010553852" gourl="http://www.books.com.tw/exep/prod/booksfile.php?item=0010553852" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.books.com.tw')">博客來網路書店</a></li>
+					<li><a href="https://www.books.com.tw/" gourl="https://www.books.com.tw/" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.books.com.tw')">博客來網路書店</a></li>
 					<li><a href="http://www.steppingstone.com.tw" gourl="http://www.steppingstone.com.tw" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.steppingstone.com.tw')">墊腳石書局</a></li>
-					<li><a href="http://www.eslite.com/product.aspx?pgid=1001118132167323" gourl="http://www.eslite.com/product.aspx?pgid=1001118132167323" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.eslite.com')">誠品書局</a></li>
-					<li><a href="http://www.sanmin.com.tw/page-product.asp?pid=226306&pf_id=99E155q7K100i24F100p66L106g125jHXqQLc1126SxV" gourl="http://www.sanmin.com.tw/page-product.asp?pid=226306&pf_id=99E155q7K100i24F100p66L106g125jHXqQLc1126SxV" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.sanmin.com.tw')">三民書局</a></li>
+					<li><a href="http://www.eslite.com/index.aspx" gourl="http://www.eslite.com/index.aspx" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'http://www.eslite.com/index.aspx')">誠品書局</a></li>
+					<li><a href="https://www.sanmin.com.tw/" gourl="https://www.sanmin.com.tw/" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'https://www.sanmin.com.tw/')">三民書局</a></li>
 					<li><a href="http://www.hess.com.tw/tw/bookstore/" gourl="http://www.hess.com.tw/tw/bookstore/" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.hess.com.tw')">何嘉仁書局</a></li>
 					<li><a href="http://www.nobelbook.com.tw" gourl="http://www.nobelbook.com.tw" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.nobelbook.com.tw')">諾貝爾書局</a></li>
-					<li><a href="http://shopping.pchome.com.tw/DJAP47-A66745288" gourl="http://shopping.pchome.com.tw/DJAP47-A66745288" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'shopping.pchome.com.tw')">PChome網路書店</a></li>
-					<li><a href="https://www.iread.com.tw/ProdDetails.aspx?prodid=B000206407" gourl="https://www.iread.com.tw/ProdDetails.aspx?prodid=B000206407"  target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'www.iread.com.tw')">灰熊愛讀書網路書店</a></li>
+					<li><a href="https://ecshweb.pchome.com.tw/book/v3.3/?q=%E5%B9%B3%E5%AF%A6%E5%B0%8E%E5%B8%AB" gourl="https://ecshweb.pchome.com.tw/book/v3.3/?q=%E5%B9%B3%E5%AF%A6%E5%B0%8E%E5%B8%AB" target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'shopping.pchome.com.tw')">PChome</a></li>
+					<li><a href="https://www.momoshop.com.tw/search/searchShop.jsp?keyword=%E6%AD%A3%E6%99%BA%E5%87%BA%E7%89%88%E7%A4%BE&searchType=6&curPage=1&_isFuzzy=0&brand=%E6%AD%A3%E6%99%BA%E5%87%BA%E7%89%88%E7%A4%BE&brandNo=20191202170744500&showType=chessboardType" gourl="https://www.momoshop.com.tw/search/searchShop.jsp?keyword=%E6%AD%A3%E6%99%BA%E5%87%BA%E7%89%88%E7%A4%BE&searchType=6&curPage=1&_isFuzzy=0&brand=%E6%AD%A3%E6%99%BA%E5%87%BA%E7%89%88%E7%A4%BE&brandNo=20191202170744500&showType=chessboardType"  target="_blank" onClick="recordOutboundLink(this, 'Traveller Outbound Links', 'https://www.momoshop.com.tw')">momo</a></li>
 				</ul>
-				<br/>
-				(博客來、三民網路書店、pchome24小時網路書店、灰熊愛讀書以上四家都是七九折優惠。)
+				
 			</p>
 		</div>
 	</div>
